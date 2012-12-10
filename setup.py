@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
 setup(
-    name = "django_countries",
-    version = "0.1.0",
+    name = "countries",
+    version = "0.1.0-2",
     description = 'Provides models for a "complete" list of countries',
     author = 'David Danier',
     author_email = 'david.danier@team23.de',
     url = 'https://github.com/ddanier/django_countries',
-    long_description=open('README.txt', 'r').read(),
+    long_description=open('README.rst', 'r').read(),
     packages = [
         'countries',
         'countries.management',
@@ -18,8 +18,8 @@ setup(
     package_data = {
         'countries': ['fixtures/*', 'locale/*/LC_MESSAGES/*'],
     },
-    requires = [
-        'django(>=1.2)',
+    install_requires = [
+        'Django >=1.2',
     ],
     classifiers=[
         'Development Status :: 5 - Production/Stable',

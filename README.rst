@@ -1,4 +1,3 @@
-================
 Django Countries
 ================
 
@@ -10,3 +9,15 @@ flags by ISO 3166-1 alpha-2 country code.
 For installation instructions see "INSTALL.txt" in this directory. 
 For general instructions on using the application and its features
 see "overview.txt" in the "docs/" directory.
+
+History
+=======
+
+This is a fork of: http://code.google.com/p/django-countries/
+
+Additional changes:
+* Made country names translateable
+* Added setup.py
+
+Original author: Fredrik Sjöblom
+
