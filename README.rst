@@ -16,6 +16,7 @@ History
 This is a fork of: http://code.google.com/p/django-countries/
 
 Additional changes:
+
 * Made country names translateable
 * Added setup.py
 
