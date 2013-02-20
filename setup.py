@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "countries",
-    version = "0.1.0-2",
+    version = "0.1.1-1",
     description = 'Provides models for a "complete" list of countries',
     author = 'David Danier',
     author_email = 'david.danier@team23.de',
