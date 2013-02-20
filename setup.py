@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "countries",
-    version = "0.1.1-1",
+    version = "0.1.1-2",
     description = 'Provides models for a "complete" list of countries',
     author = 'David Danier',
     author_email = 'david.danier@team23.de',
@@ -14,6 +14,7 @@ setup(
         'countries.management.commands',
         'countries.templatetags',
         'countries.utils',
+        'countries.migrations',
     ],
     package_data = {
         'countries': ['fixtures/*', 'locale/*/LC_MESSAGES/*'],
