@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "countries",
-    version = "0.2.0",
+    version = "0.2.1",
     description = 'Provides models for a "complete" list of countries',
     author = 'David Danier',
     author_email = 'david.danier@team23.de',
@@ -12,6 +12,7 @@ setup(
         'countries',
         'countries.management',
         'countries.management.commands',
+        'countries.migrations',
         'countries.south_migrations',
     ],
     package_data = {
