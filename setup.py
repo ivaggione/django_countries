@@ -12,7 +12,7 @@ setup(
         'countries',
         'countries.management',
         'countries.management.commands',
-        'countries.migrations',
+        'countries.south_migrations',
     ],
     package_data = {
         'countries': ['fixtures/*', 'locale/*/LC_MESSAGES/*'],
